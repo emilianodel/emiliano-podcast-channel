@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hello World</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="proyecto.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap"
+        rel="stylesheet">    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <img class="logo" alt="Bd Logo" src="/pictures/logo.svg" />
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+            <ul class="menu">
+                <li><a href="#episodios">EPISODIOS</a></li>
+                <li><a href="#nosotros">NOSOTROS</a></li>
+                <li><a href="#entrevistas">ENTREVISTAS</a></li>
+                <li><a href="#topicos">TÓPICOS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="sectionone">
+            <h1>Hello <span id="world">world</span> pale blue dot<span id="period">.</span></h1>
+            <div class="div-one">
+                <p id="content-mobile">Un podcast que explora el mundo de la programación. Nuevos episodios,
+                    todos los jueves cada 15 días.
+                </p>
+                <p id="content-desktop">El portal de podcast que explora el mundo de la programación
+                    y <br>la tecnología. Nuevos episodios, todos los jueves cada 15 díias.
+                </p>
+            </div>
+            <form target="_blank">
+               <button formaction="https://www.acamica.com/" type="submit" class="button-one">CONOCE MÁS</button>
+            </form>
+        </section>
+        <section id="episodios" class="sectiontwo">            
+                <h2> Episodios</h2>            
+            <div class="iframe-container">
+                <iframe src="https://open.spotify.com/embed/episode/6UVKYLwG7WRdsxplQA5opS"></iframe>
+                <iframe src="https://open.spotify.com/embed/episode/4lfCq6XqybyInMevI8fULK"></iframe>
+                <iframe src="https://open.spotify.com/embed/episode/6qKSMdJ1aaQqlE4aGFxTlN"></iframe>
+                <iframe src="https://open.spotify.com/embed/episode/4TgyWxgaIutmYM2XzMjUfH"></iframe>                
+            </div>
+        </section>
+        <div class="sectionthree">
+            <img alt="the secret of women in coding" class="phone" src="/pictures/phone.png" />
+        </div>
+        <section id="nosotros" class="sectionfour">  
+            <h3>De dónde <br>venimos</h3>
+            <p> Our posturings, our imagened self-imoprtance, the delusion tha we
+                have some privieled position in the Universe, are challenged by this point of pale light. <br><br>                  
+                Our planet is a lonely speck in the great eveloping cosmic dark. In our
+                obscurity, in all this vastness, there is no hint that help will come from elsewhere to save
+                us from ourselves.
+            </p>
+        </section>
+        <section id="entrevistas" class="sectionfive">
+            <h4> Invitadas/os estelares</h4>
+            <div class="pictures">
+                <img alt="Grace Hopper" src="/pictures/gracehopper.png" >
+                <img alt="Katie Bouman" src="/pictures/katiebouman.png" >
+                <img alt="Margaret Hamilton" src="/pictures/margarethamilton.png">            
+                <img alt="Computer in 1950" src="/pictures/computer1950.png" >
+                <img alt="World first programming computer" src="/pictures/worldfirstcomputer.png" >
+                <img alt="Susan Kare" src="/pictures/susankare.png">
+            </div>
+        </section>
+        <section id="topicos" class="sectionsix">
+            <h5>Algunos de nuestros temas</h5>
+            <div class="containersix">
+                <div>
+                    <img class="icon" alt="Input" src="/pictures/icon1.svg" />
+                    <p class="title-one">Trabajo remoto</p>
+                </div>
+                <div>
+                    <img class="icon" alt="Output" src="/pictures/icon2.svg" />
+                    <p class="title-two">Repensando la programación</p>
+                </div>
+                <div>
+                    <img class="icon" alt="Process" src="/pictures/icon3.svg" />
+                    <p class="title-three">Bases del código</p>
+                </div>
+                <div>
+                    <img class="icon" alt="Data bases" src="/pictures/icon4.svg" />
+                    <p class="title-four">Seguridad informática</p>
+                </div>
+            </div>
+        </section>
+        <section class="sectionseven">
+            <h6>¿Querés las últimas novedades?</h6>
+            <form target="_blank" > 
+                <button formaction="https://www.acamica.com/desarrollo-web-front-end" type="submit" class="button-two">ESCUCHÁ LOS EPISODIOS</button>   
+            </form>    
+        </section>
+    </main>
+        <footer>
+            <p>© 2019— Hello blue pale dot</p>
+            <ul>       
+                <li><a href="https://www.spotify.com/us/"><i class="fa fa-spotify"></i></a></li>
+                <li><a href="https://www.instagram.com/us/"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://telegram.org/"><i class="fa fa-telegram"></i></a></li>
+            </ul>
+        </footer>
+</body>
+
+</html>
